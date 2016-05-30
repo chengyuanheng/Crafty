@@ -6,7 +6,7 @@ var Game = function(){
             .attr({x:170, y:120, w:100, h:100})
             .bind('EnterFrame', function(){
               this.rotation = this.rotation+1;
-            }).origin('centre')
+            }).origin('center')
       Crafty.e('2D, DOM, Text').attr({x:10, y:10, w:300}).text('square rotate around center')
 
     }
